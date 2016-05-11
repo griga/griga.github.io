@@ -17432,14 +17432,15 @@ body {
     .gt-sm-top-pad {
       padding-top: 3rem; } }
 
-header {
-  position: fixed;
-  max-width: 991px;
-  z-index: 1000;
-  padding: 1rem;
-  color: rgba(255, 255, 255, 0.9);
-  letter-spacing: 1px;
-  width: 100%; }
+      header {
+          pointer-events: none;
+          position: fixed;
+          max-width: 991px;
+          z-index: 1000;
+          padding: 1rem;
+          color: rgba(255, 255, 255, 0.9);
+          letter-spacing: 1px;
+      width: 100%; }
 
 footer {
   -webkit-box-pack: end;
