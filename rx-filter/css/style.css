@@ -13268,7 +13268,7 @@ body {
   margin: 0 auto;
   padding: 0;
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: 'Roboto', sans-serif; }
 
 .flexbox {
@@ -13309,3 +13309,8 @@ header {
 footer {
   display: flex;
   justify-content: flex-end; }
+
+#rx-filter__page {
+  padding: 0 10px;
+  width: 500px;
+  margin: auto; }
