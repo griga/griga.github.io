@@ -18,12 +18,14 @@
     background: #475c3d;
     top: 50%;
     transform: translate(-50%, -50%);
-    pointer-events: none; }
+    pointer-events: none;
+    z-index: 0; }
   .dual-range-slider input {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%; }
+    width: 100%;
+    z-index: 10; }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important; }
