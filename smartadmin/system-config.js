@@ -2,9 +2,35 @@
  * User Configuration.
  **********************************************************************************************/
 /** Map relative paths to URLs. */
-var map = {};
+var map = {
+    '@ngrx': 'vendor/@ngrx',
+    'moment': 'vendor/moment/moment.js',
+    'ng2-bootstrap': 'vendor/ng2-bootstrap',
+    'symbol-observable': 'vendor/symbol-observable/lib/ponyfill.js',
+    'lodash': 'vendor/lodash'
+};
 /** User packages configuration. */
-var packages = {};
+var packages = {
+    '@ngrx/core': {
+        main: 'index.js',
+        defaultExtension: 'js',
+        format: 'cjs'
+    },
+    '@ngrx/store': {
+        main: 'index.js',
+        defaultExtension: 'js',
+        format: 'cjs'
+    },
+    'ng2-bootstrap': {
+        main: 'ng2-bootstrap.js',
+        defaultExtension: 'js',
+        format: 'cjs'
+    },
+    'lodash': {
+        main: 'index.js',
+        defaultExtension: 'js'
+    },
+};
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
  * Everything underneath this line is managed by the CLI.
@@ -25,6 +51,19 @@ var barrels = [
     'app/shared',
     'app/+dashboard',
     'app/+social',
+    'app/shared/footer',
+    'app/shared/header',
+    'app/shared/header/recent-projects',
+    'app/shared/header/full-screen',
+    'app/shared/header/collapse-menu',
+    'app/shared/navigation',
+    'app/shared/demo-states',
+    'app/shared/ribbon',
+    'app/+smartadmin/+app-layouts',
+    'app/+smartadmin/prebuilt-skins',
+    'app/shared/i18n',
+    'app/shared/i18n/language-selector',
+    'app/shared/navigation/minify-menu',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
