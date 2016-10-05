@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["index.ts"],"names":[],"mappings":";AAAA,0CAAwC,6BAA6B,CAAC;AAA7D,sFAA6D;AACtE,wCAAsC,2BAA2B,CAAC;AAAzD,gFAAyD","sourcesContent":["export { RecentProjectsComponent } from './recent-projects.component';\nexport { RecentProjectsService } from './recent-projects.service';\n"]}
