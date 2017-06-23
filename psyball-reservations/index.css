@@ -1969,6 +1969,8 @@ nav.sidebar {
   nav.sidebar .nav-header {
     background-color: #2D3035;
     position: relative; }
+    nav.sidebar .nav-header:hover {
+      background-color: #1F2227; }
     nav.sidebar .nav-header #site_info {
       padding: 0; }
       nav.sidebar .nav-header #site_info #site_name {
