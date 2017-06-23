@@ -1967,10 +1967,10 @@ input[type="button"].btn-block {
 nav.sidebar {
   background-color: #2D2F34; }
   nav.sidebar .nav-header {
-    background-color: #2D3035; }
+    background-color: #2D3035;
+    position: relative; }
     nav.sidebar .nav-header #site_info {
-      padding: 0;
-      position: relative; }
+      padding: 0; }
       nav.sidebar .nav-header #site_info #site_name {
         position: absolute;
         top: 50%;
