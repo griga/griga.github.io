@@ -1944,7 +1944,10 @@ input[type="button"].btn-block {
   vertical-align: middle;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  height: 2.4rem;
+  height: 3.5rem;
+  -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+          transform: translateY(10px);
   min-width: 16rem; }
 
 .navbar .navbar-header img {
