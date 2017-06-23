@@ -2022,3 +2022,6 @@ input[type="button"].btn-block {
 
 .navbar .navbar-header {
   display: none; }
+
+footer.quick_footer {
+  display: none; }
