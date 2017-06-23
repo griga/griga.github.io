@@ -1968,6 +1968,18 @@ nav.sidebar {
   background-color: #2D2F34; }
   nav.sidebar .nav-header {
     background-color: #2D3035; }
+    nav.sidebar .nav-header #site_info {
+      padding: 0;
+      position: relative; }
+      nav.sidebar .nav-header #site_info #site_name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); }
+      nav.sidebar .nav-header #site_info #site_id {
+        display: none; }
   nav.sidebar #qs-mobile-menu-top {
     background-color: #222 !important; }
   nav.sidebar #sidebar_logo[style] {
