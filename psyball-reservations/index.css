@@ -1953,6 +1953,9 @@ input[type="button"].btn-block {
 .navbar .navbar-header img {
   display: none; }
 
+.navbar .nav.navbar-nav:not(.navbar-right) {
+  display: none; }
+
 .navbar .nav.navbar-nav li a, .navbar .btn-secondary {
   font-weight: normal;
   text-transform: uppercase;
